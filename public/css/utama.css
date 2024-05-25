@@ -1,0 +1,85 @@
+* {
+    padding:0px;
+    margin:0px;
+}
+
+    body {
+        overflow-x: hidden;
+    }
+    .bagian-1 {
+        height: 45vh;
+        background-image: url('img/bg2.jpg');
+        background-position: center;
+        background-size: auto;
+        width: 100%;
+    }
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        color: white;
+    }
+    p {
+        /* font-family: 'Poppins', sans-serif; */
+        color: white;
+        margin-bottom: 30px;
+    }
+    .isi-header {
+        margin: 60px 30px;
+    }
+    .beranda {
+        font-family: 'Poppins', sans-serif;
+        text-decoration: none;
+        padding: 15px 70px;
+        background-color: white;
+        border-radius: 30px; 
+    }
+    .keterangan {
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                    -ms-grid-row-align: center;
+                align-items: center;
+        margin: 30px 0px;
+    }
+
+    .menu {
+        width: 350px;
+        height: 140px;
+        background-color: rgb(235, 255, 255);
+        margin: 10px;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    .isi {
+        width: 100%;
+    }
+    .menu img {
+        width: 200px;
+        position: relative;
+        top: -50px;
+    }
+    .menu h3 {
+        font-family: 'Poppins', sans-serif;
+        padding-top: 20px;
+
+    }
+    .footer {
+    width: 100%;
+    background-color: #d2dbff;
+    padding-top: 15px;
+    }
+.menu-footer {
+    width: 500px;
+}
+.footer img {
+    width: 200px;
+}
+.footer a {
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif; 
+}
+.footer p {
+    color: black;
+}
